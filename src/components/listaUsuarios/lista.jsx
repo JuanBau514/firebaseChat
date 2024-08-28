@@ -1,14 +1,13 @@
-const lista = ({usuarios}) => {
+import './lista.css';
+import InfoUsuario from "./infoUsuario/infoUsuario";
+import ListaChats from "./listaChat/listaChats";
+const lista = () => {
     return (
-        <div>
-        <h1>Lista de usuarios</h1>
-        <ul>
-            {usuarios.map(usuario => (
-            <li key={usuario.id}>{usuario.nombre}</li>
-            ))}
-        </ul>
+        <div className='lista'>
+            <InfoUsuario />
+            <ListaChats />
         </div>
     );
 }
 
-    export default lista;
+ export default lista;

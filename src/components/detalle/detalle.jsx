@@ -1,7 +1,9 @@
+import './detalle.css';
+
 const detalle = () => {
   return (
-    <div>
-      <h1>Detalle</h1>
+    <div className='detalle'>
+      Detalle
     </div>
   );
 }
