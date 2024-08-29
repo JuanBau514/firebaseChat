@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #D3DDE6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+
+.contenedor {
+  width: 90vw;
+  height: 90vh;
+  background-color: #385d78;
+  backdrop-filter: blur(19px) saturate(180%);
+  border-radius: 12px;
+  border: 1px solid #18A4E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.login-wrapper h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.inputbox {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: #333;
+  margin: 15px 0;
+  border-radius: 40px;
+}
+
+.inputbox input {
+  color: aliceblue;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+ .google-btn {
+  padding: 10px;
+  margin: 12px 10px;
+  background-color: rgba(230, 74, 105, 0.553);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; /* Alinea verticalmente los elementos */
+
+  .btnG {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el texto y la imagen */
+  }
+
+  p {
+    margin: 0;
+    margin-left: 10px; /* Ajusta el espacio entre el logo y el texto */
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  &:hover {
+    background-color: rgba(220, 20, 60, 0.796);
+  }
+
+  &.logout {
+    padding: 10px;
+    background-color: #1a73e8;
+  }
+}
+
+
+     .login-btn {
+      padding: 10px;
+      margin: 0px 5px;
+      background-color: rgba(230, 74, 105, 0.553);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(220, 20, 60, 0.796);
+      }
+
+      &.logout{
+        padding: 10px;
+        background-color: #1a73e8;
+      }
+    }

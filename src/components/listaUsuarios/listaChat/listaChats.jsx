@@ -17,35 +17,35 @@ const listaChats = () => {
           onClick={() => setMode((prev) => !prev)}
         />
       </div>
-      <div className="chat">
+      <div className="Userchat">
         <img src="/src/assets/avatar.png" alt="" />
         <div className="texto">
           <span>Nombre</span>
           <p>Ultimo Mensaje</p>
         </div>
       </div>
-      <div className="chat">
+      <div className="Userchat">
         <img src="/src/assets/avatar.png" alt="" />
         <div className="texto">
           <span>Nombre</span>
           <p>Ultimo Mensaje</p>
         </div>
       </div>
-      <div className="chat">
+      <div className="Userchat">
         <img src="/src/assets/avatar.png" alt="" />
         <div className="texto">
           <span>Nombre</span>
           <p>Ultimo Mensaje</p>
         </div>
       </div>
-      <div className="chat">
+      <div className="Userchat">
         <img src="/src/assets/avatar.png" alt="" />
         <div className="texto">
           <span>Nombre</span>
           <p>Ultimo Mensaje</p>
         </div>
       </div>
-      <div className="chat">
+      <div className="Userchat">
         <img src="/src/assets/avatar.png" alt="" />
         <div className="texto">
           <span>Nombre</span>
